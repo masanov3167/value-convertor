@@ -45,7 +45,7 @@ elForm.addEventListener("submit" , function(e){
 
   var elInputVal = Number(elFormInput.value);
   var elSelectVal = Number(elFormSelect.value);
-  var elSelectVal2 = Number(elFormSelect.getAttributeNames);
+//   var elSelectVal2 = Number(elFormSelect.getAttributeNames);
   var result = elInputVal * elSelectVal;
 
   elFormResult.textContent = (result);
