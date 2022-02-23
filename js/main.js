@@ -50,4 +50,9 @@ elForm.addEventListener("submit" , function(e){
 
   elFormResult.textContent = (result);
 
+  if(elInputVal <= 0 || elInputVal == " "){
+    elFormResult.textContent = "Qaytadan urinib ko'ring";
+  }
+  
 });
+
